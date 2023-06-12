@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+<img width="1440" alt="image" src="https://github.com/blackscriptt/movie-app/assets/111915039/0730f825-bc27-47f1-88d0-599aac24ecfe">
+<img width="1440" alt="image" src="https://github.com/blackscriptt/movie-app/assets/111915039/e00572a8-5a48-492f-ad38-9d3792262076">
+<img width="1440" alt="image" src="https://github.com/blackscriptt/movie-app/assets/111915039/e6f00620-499b-4940-84db-107a04e40d2e">
