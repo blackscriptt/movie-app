@@ -1,0 +1,57 @@
+<h3>Movie Detail</h3>
+<hr>
+
+<div class="row justify-content-center">
+  <div class="col-10">
+
+    <div class="card text-bg-dark">
+
+      <div class="row">
+        <div class="col-4">
+          <img src="/assets/images/{{movie?.img}}" class="rounded-start" width="100%" height="340px" alt="">
+        </div>
+
+        <div class="col-8">
+          <div class="card-body">
+
+            <div class="mb-3">
+              <input type="text" class="form-control" [(ngModel)]="movie!.img">
+            </div>
+
+            <div class="mb-3">
+              <input type="text" class="form-control" [(ngModel)]="movie!.name" placeholder="title...">
+            </div>
+
+            <div class="mb-3">
+              <textarea class="form-control" cols="30" rows="6" style="resize: none;" [(ngModel)]="movie!.description" placeholder="decription..." ></textarea>
+            </div>
+
+            <div>
+              <button type="button" class="btn btn-sm btn-warning w-100" (click)="update()">Güncelle</button>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- <div>
+  <div class="text-center">
+    Select Movie:
+    <span class="badge bg-warning"> id: {{ movie?.id }} name: {{ movie?.name }}</span>
+  </div>
+
+  <div class="input-group mt-3">
+    <input #txtName class="form-control" type="text" value="{{ movie?.name }}">
+    <button type="button" class="btn btn-outline-warning" (click)="setName(txtName.value)">Güncelle</button>
+  </div>
+</div> -->
+
